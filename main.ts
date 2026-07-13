@@ -1,5 +1,6 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showNumber(1)
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
     basic.pause(100)
-    basic.showNumber(2)
+    basic.showIcon(IconNames.Asleep)
+    basic.pause(100)
 })
